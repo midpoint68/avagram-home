@@ -7,9 +7,6 @@ const config = {
     kit: {
         adapter: adapter(),
         target: '#svelte',
-        paths: {
-            base: dev ? '' : '/avagram-io',
-        },
         appDir: 'internal',
     }
 };
